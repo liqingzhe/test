@@ -1,0 +1,140 @@
+page-home {}
+
+i.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+}
+
+.icon.arrowR {
+    width: 7px;
+    height: 12px;
+    margin-left: 5px;
+    margin-top: -1px;
+    background-image: url(../imgs/arrowR.png);
+}
+
+.toolbar {
+    padding: 10px;
+}
+
+.home .banner {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 13px;
+    background-image: url(../imgs/banner.png);
+    background-size: cover;
+}
+
+ion-app.ios [padding],
+ion-app.ios [padding] .scroll-content {
+    padding: 0;
+}
+
+ion-app.md [padding],
+ion-app.md [padding] .scroll-content {
+    padding: 0;
+}
+
+.home .item .list-outer {
+    width: 100%;
+    height: 150px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+}
+
+.home .item .list-outer::-webkit-scrollbar,
+{
+    display: none !important;
+}
+
+.home .item .title {
+    height: 32px;
+    line-height: 32px;
+    border-left: 3px solid #ffd138;
+    padding: 0 12px;
+    margin: 17px 0;
+    font-size: 13px;
+    color: #716f76;
+}
+
+.home .item .title .more {
+    display: inline-block;
+    height: 32px;
+    line-height: 43px;
+}
+
+.home .item .title .topic {
+    width: 67px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+}
+
+.home .item .title .topic.topic1 {
+    background-image: url(../imgs/home_title1.png);
+}
+
+.home .item .title .topic.topic2 {
+    background-image: url(../imgs/home_title2.png);
+}
+
+.home .item .title .topic.topic3 {
+    background-image: url(../imgs/home_title3.png);
+}
+
+.home .item .list {
+    width: 902px;
+    height: 150px;
+}
+
+.home .item .list .list-item {
+    position: relative;
+    width: 220px;
+    height: 150px;
+    margin-right: 4px;
+    color: #fff;
+    float: left;
+    background-size: cover;
+}
+
+.home .item .list .list-item.last {
+    margin-right: 0;
+}
+
+.home .item .list .blank {
+    width: 5px;
+    height: 150px;
+    background-color: #fff;
+    float: left;
+}
+
+.home .item .list-item .cover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    padding: 0 8px;
+    background-color: rgba(251, 204, 47, .7);
+}
+
+.home .item.life-service .list-outer {
+    height: 90px;
+}
+
+.home .item.life-service .list {
+    width: 558px;
+    height: 90px;
+}
+
+.home .item.life-service {
+    margin-bottom: 15px;
+}
+
+.home .item.life-service .list .list-item {
+    width: 134px;
+    height: 90px;
+}
