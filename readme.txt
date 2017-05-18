@@ -1,7 +1,7 @@
 ## 1. 开发环境    
       
 
-###system information:
+### system information:
 
     ordova CLI: 7.0.1      
     Ionic Framework Version: 3.2.1    
@@ -14,7 +14,7 @@
     Node Version: v7.7.3
     Xcode version: Not installed
 
-##2. 项目目录
+## 2. 项目目录
 - ###tabsMyIonic2Project\www文件目录    
        
         imgs：项目图片
