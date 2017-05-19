@@ -8,6 +8,7 @@
     <ion-navbar>
         <ion-searchbar></ion-searchbar>
     </ion-navbar>
+    <!-- 筛选导航-->
     <ul class="zhengzu_navi">
         <li class="active">
             <div class="inner">合租<span class="trangle"></span></div>
@@ -25,20 +26,70 @@
             <div class="inner">筛选<span class="trangle"></span></div>
         </li>
     </ul>
-    <div class="layer">
-      <div class="bg"></div>
-      <ul class="item-list">
-        <li class="active">10000元以下</li>
-        <li>1100~1200元</li>
-        <li>1200~1300元</li>
-        <li>1300~1400元</li>
-      </ul>
-  </div>
 </ion-header>
 <ion-content padding class="zhengzu">
+    <!-- 下拉列表 -->
+    <div class="layer">
+        <ul class="item-list" style="display: none;">
+            <li class="active">10000元以下</li>
+            <li>1100~1200元</li>
+            <li>1200~1300元</li>
+            <li>1300~1400元</li>
+        </ul>
+        <div class="filter-item-list">
+            <div class="item">
+                <p class="title">朝向</p>
+                <ul>
+                    <li class="active">东</li>
+                    <li>南</li>
+                    <li>西</li>
+                    <li>北</li>
+                </ul>
+            </div>
+            <div class="item">
+                <p class="title">房屋特色</p>
+                <ul>
+                    <li class="active">首次出租</li>
+                    <li>独立卫生间</li>
+                    <li>集体供暖</li>
+                    <li>温馨</li>
+                    <li>智能锁</li>
+                    <li>有电梯</li>
+                </ul>
+            </div>
+            <div class="item">
+                <p class="title">房源周边</p>
+                <ul>
+                    <li class="active">离地铁近</li>
+                    <li>新小区</li>
+                    <li>离学校近</li>
+                    <li>绿化高</li>
+                </ul>
+            </div>
+            <div class="item">
+                <p class="title">租约类型</p>
+                <ul>
+                    <li class="active">年付</li>
+                    <li>月付</li>
+                </ul>
+            </div>
+            <div class="item">
+                <p class="title">房屋状态</p>
+                <ul>
+                    <li class="active">可直接入住</li>
+                    <li>可预订</li>
+                    <li>转租中</li>
+                </ul>
+            </div>
+            <ul class="btn">
+                <li class="reset-btn">重置选择</li>
+                <li class="sure-btn">确定</li>
+            </ul>
+        </div>
+    </div>
+
     <!-- banner图 -->
     <div class="banner"></div>
-
     <!-- 内容主题 合租整租列表页-->
     <div class="list">
         <div class="left">
