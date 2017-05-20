@@ -12,6 +12,7 @@ import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { Gongyu } from '../pages/gongyu/gongyu';
 import { Zhengzu } from '../pages/zhengzu/zhengzu';
+import { Auth } from '../pages/auth/auth';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,11 +23,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage,
-    LoginPage,
+    TabsPage,//注册
+    LoginPage,//登录
     RegisterPage,
-    Gongyu,
-    Zhengzu
+    Gongyu,//公寓宿舍
+    Zhengzu,//整租合租
+    Auth//认证
 
   ],
   imports: [
@@ -43,7 +45,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     RegisterPage,
     Gongyu,
-    Zhengzu
+    Zhengzu,
+    Auth
 
   ],
   providers: [

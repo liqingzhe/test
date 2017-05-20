@@ -3,6 +3,7 @@ import { Component , ViewChild} from '@angular/core';
 import {NavController, Nav} from 'ionic-angular';
 import {LoginPage} from "../login/login";
 import {RegisterPage} from "../register/register";
+import {Auth} from "../auth/auth";
 
 @Component({
   selector: 'page-about',
@@ -19,7 +20,8 @@ export class AboutPage {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Login', component: LoginPage },
-      { title: 'Register', component: RegisterPage }
+      { title: 'Register', component: RegisterPage },
+      { title: '实名认证', component: Auth}
     ];
   }
 
