@@ -1,18 +1,59 @@
 <!--
-  Generated template for the Contact page.
+  Generated template for the Auth page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>contact</ion-title>
-  </ion-navbar>
-
+    <ion-navbar>
+        <ion-title>
+            联系管家看房
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
-
 <ion-content padding>
+    <div class="contact">
+    	<!-- 管家信息 -->
+        <div class="guanjia-info clearfix">
+            <div class="info floatL">
+                <div class="guanjai-img floatL"></div>
+                李薇薇
+            </div>
+            <div class="btn-call floatR">
+                <i class="icon call"></i>联系管家
+            </div>
+        </div>
 
+        <!-- 联系人信息 -->
+        <div class="title">
+            <div class="content">联系人信息</div>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item">姓名
+                <input type="text" placeholder="姓名" class="inputTxt">
+            </li>
+            <li class="list-group-item">性别
+                <input type="text" placeholder="男/女" class="inputTxt">
+            </li>
+            <li class="list-group-item last">手机号码
+                <input type="text" placeholder="请输入手机号码" class="inputTxt">
+            </li>
+        </ul>
+        <ul class="list-group">
+            <li class="list-group-item last">期望看房时间
+                <span class="arrow-tip floatR">随时可看<i class="icon arrowR"></i></span>
+                <input type="datetime-local" value="2017-05-26" class="date-time">
+            </li>
+        </ul>
+
+        <!-- 给管家留言 -->
+        <div class="title margin-top">
+            <div class="content">给管家留言</div>
+        </div>
+        <textarea placeholder="我很喜欢这房源，想了解更多......"></textarea>
+        <div class="submit fixed-submit">
+            <button>提交预约</button>
+        </div>
+    </div>
 </ion-content>

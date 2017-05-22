@@ -26,6 +26,15 @@ input::-webkit-input-placeholder {
 
 textarea {
     resize: none;
+    height: 150px;
+    font-size: 12px;
+    line-height: 2em;
+    width: 95%;
+    margin: 0 auto;
+    padding: 6px;
+    display: block;
+    border-color: #f1f1f1;
+    margin-top: 15px;
 }
 
 .clearfix {
@@ -47,6 +56,31 @@ textarea {
 
 .floatR {
     float: right;
+}
+
+
+/*图标*/
+
+i.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+}
+
+.icon.arrowR {
+    width: 7px;
+    height: 12px;
+    margin-left: 5px;
+    margin-top: -1px;
+    background-image: url(../imgs/arrowR.png);
+}
+
+.list-group .list-group-item .icon.arrowR {
+    margin-top: 19px;
+}
+
+.toolbar {
+    padding: 10px;
 }
 
 
@@ -384,27 +418,35 @@ button {
 
 /*资料认证页面*/
 
-.user-auth .list-group {
+.user-auth .list-group,
+.contact .list-group,
+.pay .list-group {
     border-top: 1px solid #eee;
     border-bottom: 10px solid #eee;
     padding: 0 15px;
+    position: relative;
 }
 
-.user-auth .list-group .arrow-tip.inputTxt {
+.user-auth .list-group .inputTxt,
+.contact .list-group .inputTxt {
     float: right;
     width: 61%;
     padding: 0;
     text-align: right;
 }
 
-.user-auth .list-group .list-group-item {
+.user-auth .list-group .list-group-item,
+.contact .list-group .list-group-item,
+.pay .list-group .list-group-item {
     overflow: hidden;
     line-height: 45px;
     border-bottom: 1px solid #eee;
-    font-size: 12px;
+    font-size: 13px;
 }
 
-.user-auth .list-group .list-group-item.last {
+.user-auth .list-group .list-group-item.last,
+.contact .list-group .list-group-item.last,
+.pay .list-group .list-group-item.last {
     border: 0;
 }
 
@@ -507,6 +549,125 @@ button {
     height: 25px;
     color: #333;
     font-size: 13px;
+}
+
+
+/*联系管家看房页*/
+
+.contact .guanjia-info {
+    padding: 8px 10px;
+}
+
+.contact .guanjia-info .info {
+    width: 60%;
+    height: 100px;
+    line-height: 100px;
+}
+
+.contact .guanjia-info .guanjai-img {
+    width: 85px;
+    height: 85px;
+    margin-top: 7.5px;
+    margin-right: 20px;
+    border-radius: 42.5px;
+    background-image: url(../../imgs/guanjai.jpg);
+    background-size: cover;
+}
+
+.contact .guanjia-info .btn-call {
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #fbbd04;
+    color: #fff;
+    text-align: center;
+    margin-top: 37.5px;
+}
+
+.contact .guanjia-info .btn-call i.call {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background-image: url(../../imgs/phone.png);
+    background-size: cover;
+}
+
+.contact .title,
+.pay .title {
+    height: 45px;
+    line-height: 25px;
+    color: #595959;
+    font-size: 14px;
+    padding: 10px 0;
+    background-color: #eee;
+}
+
+.contact .title.margin-top,
+.pay .title.margin-top {
+    margin-top: -10px;
+}
+
+.contact .title .content,
+.pay .title .content {
+    border-left: 3px solid #ffd138;
+    padding-left: 10px;
+}
+
+.contact .date-time {
+    position: absolute;
+    right: 10px;
+    opacity: 1;
+    width: 150px;
+    height: 45px;
+    opacity: 0;
+}
+
+
+/*支付定金页*/
+
+.pay .pay-info {
+    padding: 10px;
+}
+
+.pay .pay-info .house-img {
+    width: 125px;
+    height: 85px;
+    background-image: url(../../imgs/pay-info.jpg);
+    background-size: cover;
+}
+.pay .pay-info .c_warning{
+	font-size: 16px;
+}
+.pay .pay-info .info-title{
+	font-size: 14px;
+}
+.pay .pay-info .detail{
+	font-size: 12px;
+	color:#9d9d9d;
+}
+.pay .pay-info ul li {
+	margin-bottom:16px;
+}
+
+.pay .list-group .list-group-item i.pay-icon {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.pay .list-group .list-group-item .pay-icon.kefu {
+    background-image: url(../../imgs/zhifubao.png);
+}
+
+.pay .list-group .list-group-item .pay-icon.wechat {
+    background-image: url(../../imgs/wechat.png);
+}
+
+.pay .list-group .list-group-item .pay-icon.bank {
+    background-image: url(../../imgs/bank.png);
 }
 
 @media screen and (min-width:375px) {
