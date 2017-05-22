@@ -4,6 +4,9 @@ import {NavController, Nav} from 'ionic-angular';
 import {LoginPage} from "../login/login";
 import {RegisterPage} from "../register/register";
 import {Auth} from "../auth/auth";
+import {Housedetail} from "../housedetail/housedetail";
+import {Contact} from "../contact/contact";
+import {Pay} from "../pay/pay";
 
 @Component({
   selector: 'page-about',
@@ -21,7 +24,10 @@ export class AboutPage {
     this.pages = [
       { title: 'Login', component: LoginPage },
       { title: 'Register', component: RegisterPage },
-      { title: '实名认证', component: Auth}
+      { title: '实名认证', component: Auth},
+      { title: '房屋详情', component: Housedetail},
+      { title: '联系管家', component: Contact},
+      { title: '支付', component: Pay}
     ];
   }
 
