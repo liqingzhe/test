@@ -7,6 +7,8 @@ import {Auth} from "../auth/auth";
 import {Housedetail} from "../housedetail/housedetail";
 import {Contact} from "../contact/contact";
 import {Pay} from "../pay/pay";
+import {Livinggoods} from "../livinggoods/livinggoods";
+import {Livingservice} from "../livingservice/livingservice";
 
 @Component({
   selector: 'page-about',
@@ -27,7 +29,9 @@ export class AboutPage {
       { title: '实名认证', component: Auth},
       { title: '房屋详情', component: Housedetail},
       { title: '联系管家', component: Contact},
-      { title: '支付', component: Pay}
+      { title: '支付', component: Pay},
+      { title: '生活服务', component: Livingservice},
+      { title: '生活用品', component: Livinggoods}
     ];
   }
 

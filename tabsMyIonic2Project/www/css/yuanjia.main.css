@@ -443,7 +443,9 @@ button {
     border-bottom: 1px solid #eee;
     font-size: 13px;
 }
-
+.contact .list-group .list-group-item .arrowR{
+	margin-top: -1px;
+}
 .user-auth .list-group .list-group-item.last,
 .contact .list-group .list-group-item.last,
 .pay .list-group .list-group-item.last {
@@ -593,7 +595,8 @@ button {
 }
 
 .contact .title,
-.pay .title {
+.pay .title,
+.living-service .title {
     height: 45px;
     line-height: 25px;
     color: #595959;
@@ -607,10 +610,9 @@ button {
     margin-top: -10px;
 }
 
-.contact .title .content,
-.pay .title .content {
+.title .content {
     border-left: 3px solid #ffd138;
-    padding-left: 10px;
+    padding: 0 10px;
 }
 
 .contact .date-time {
@@ -635,18 +637,26 @@ button {
     background-image: url(../../imgs/pay-info.jpg);
     background-size: cover;
 }
-.pay .pay-info .c_warning{
-	font-size: 16px;
+
+.pay .pay-info .c_warning {
+    font-size: 16px;
 }
-.pay .pay-info .info-title{
-	font-size: 14px;
+
+.pay .pay-info .info-title {
+    font-size: 14px;
 }
-.pay .pay-info .detail{
-	font-size: 12px;
-	color:#9d9d9d;
+
+.pay .pay-info .detail {
+    font-size: 12px;
+    color: #9d9d9d;
 }
+
 .pay .pay-info ul li {
-	margin-bottom:16px;
+    margin-bottom: 16px;
+}
+
+.pay .pay-info ul li.last {
+    margin-bottom: 0;
 }
 
 .pay .list-group .list-group-item i.pay-icon {
@@ -668,6 +678,208 @@ button {
 
 .pay .list-group .list-group-item .pay-icon.bank {
     background-image: url(../../imgs/bank.png);
+}
+
+/*生活用品详情蒙层*/
+.living-goods{
+	position: relative;
+}
+.mengceng{
+	position: absolute;
+	left:0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	height: 100%;
+	z-index:1000;
+	background-color: rgba(0,0,0,0.7);
+}
+.mengceng .content{
+	position: absolute;
+	padding: 45px 65;
+	width: 90%;
+	height: 90%;
+	background-color: #fff;
+	left:50%;
+	bottom:5%;
+	margin-left: -45%; 
+	text-align: center;
+} 
+.mengceng .content .close{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	right: 8px;
+	top:8px;
+	background-image: url(../../imgs/close.png);
+	background-size:cover;
+
+}
+.mengceng .content .goods-img{
+	width: 100%;
+	height: 50%;
+	background-image: url(../../imgs/detail_banner.jpg);
+	background-size:cover;
+}
+.mengceng .content .goods-detail{
+	padding: 10px;
+	color:#666;
+	text-indent: 4px;
+	font-size: 14px;
+	text-align: justify;
+}
+/*生活用品页*/
+
+.living-goods .purchase {
+    border-top: 1px solid #eee;
+}
+
+.living-goods .purchase .circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 1px solid #a9a9a9;
+    margin-top: 35px;
+    margin-right: 5px;
+}
+
+.living-goods .purchase .circle.selected {
+    background-image: url(../../imgs/selected.png);
+    background-size: cover;
+    border: none;
+}
+
+.living-goods .purchase .purchase-info {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.living-goods .purchase .purchase-info .minus,
+.living-goods .purchase .purchase-info .plus {
+    width: 24px;
+    height: 24px;
+}
+
+.living-goods .purchase .purchase-info .minus {
+    background-image: url(../../imgs/minus.png);
+}
+
+.living-goods .purchase .purchase-info .plus {
+    background-image: url(../../imgs/plus.png);
+}
+.living-goods .purchase .purchase-info .price-num{
+	margin-top: 3px;
+	margin-right: 5px;
+}
+.living-goods .purchase .purchase-info .inputNum {
+    width: 40px;
+    height: 24px;
+    border: 0;
+    outline: none;
+    font-size: 12px;
+    color: #2c2c2c;
+    text-align: center;
+    line-height: 1.42857143;
+}
+
+.living-goods .purchase .purchase-info ul {
+    width: 56%;
+}
+
+.living-goods .purchase .purchase-info ul .info-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color:#595959;
+}
+
+.living-goods .purchase .purchase-info .house-img {
+    width: 100px;
+    height: 75px;
+    background-image: url(../../imgs/pay-info.jpg);
+    background-size: cover;
+}
+
+.living-goods .purchase .purchase-info .btn-left,
+.living-goods .purchase .purchase-info .btn-right {
+    float: left;
+    width: 49%;
+    height: 28px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #fbbd04;
+}
+
+.living-goods .purchase .purchase-info ul .info-title,
+.living-goods .purchase .purchase-info ul .price {
+    margin-bottom: 2px;
+}
+
+.living-goods .purchase .purchase-info .btn-left {
+    background-color: #fff;
+    color: #fbbd04;
+}
+
+.living-goods .purchase .purchase-info .btn-right {
+    background-color: #fbbd04;
+    color: #fff;
+}
+
+
+/*生活服务页*/
+
+.living-service .pic-show .left {
+    width: 40%;
+    height: 240px;
+    border-right: 1px solid #fff;
+    background-image: url(../../imgs/goods1.jpg);
+    background-size: cover;
+}
+
+.living-service .pic-show .right {
+    width: 60%;
+    height: 240px;
+}
+
+.living-service .pic-show .right .right-pic1,
+.living-service .pic-show .right .right-pic2 {
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+
+.living-service .pic-show .right .right-pic1 {
+    background-image: url(../../imgs/goods2.jpg);
+    border-bottom: 1px solid #fff;
+}
+
+.living-service .pic-show .right .right-pic2 {
+    background-image: url(../../imgs/goods3.jpg);
+}
+
+.living-service .purchase {
+    padding: 5px 10px;
+}
+
+.living-service .purchase .pic {
+    width: 49%;
+    height: 130px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.living-service .purchase .pic .pic-left,
+.living-service .purchase .pic .pic-right {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 5px;
+    background-image: url(../../imgs/purchase.jpg);
+    background-size: cover;
+}
+
+.living-service .purchase .pic p {
+    height: 20px;
+    padding-left: 2px;
 }
 
 @media screen and (min-width:375px) {
@@ -697,5 +909,16 @@ button {
         font-size: 12px;
         height: 18px;
         line-height: 16px;
+    }
+    .living-goods .purchase .purchase-info .house-img {
+        width: 120px;
+        height: 90px;
+    }
+    .living-goods .purchase .purchase-info ul {
+        width: 58%;
+    }
+    .living-goods .purchase .purchase-info ul .info-title,
+    .living-goods .purchase .purchase-info ul .price {
+        margin-bottom: 8px;
     }
 }

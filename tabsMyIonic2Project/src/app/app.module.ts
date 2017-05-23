@@ -15,6 +15,8 @@ import { Auth } from '../pages/auth/auth';
 import { Housedetail } from '../pages/housedetail/housedetail';
 import { Contact } from '../pages/contact/contact';
 import { Pay } from '../pages/pay/pay';
+import { Livinggoods } from '../pages/livinggoods/livinggoods';
+import { Livingservice } from '../pages/livingservice/livingservice';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -32,7 +34,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Auth,//认证
     Housedetail,//详情页
     Contact,//联系管家页
-    Pay//支付
+    Pay,//支付
+    Livinggoods,//生活用品
+    Livingservice//生活服务
   ],
   imports: [
     BrowserModule,
@@ -51,7 +55,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Auth,
     Housedetail,//详情页
     Contact,//联系管家页
-    Pay//支付
+    Pay,//支付
+    Livinggoods,//生活用品
+    Livingservice//生活服务
 
   ],
   providers: [
