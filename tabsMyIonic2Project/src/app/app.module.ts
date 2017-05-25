@@ -17,6 +17,15 @@ import { Contact } from '../pages/contact/contact';
 import { Pay } from '../pages/pay/pay';
 import { Livinggoods } from '../pages/livinggoods/livinggoods';
 import { Livingservice } from '../pages/livingservice/livingservice';
+import { Goodspay } from '../pages/goodspay/goodspay';
+import { Baochepay } from '../pages/baochepay/baochepay';
+import { Baojiepay } from '../pages/baojiepay/baojiepay';
+import { Dingcanpay } from '../pages/dingcanpay/dingcanpay';
+import { Baoche } from '../pages/baoche/baoche';
+import { Baojie } from '../pages/baojie/baojie';
+import { Dingcan } from '../pages/dingcan/dingcan';
+import { Dingcanfuwu } from '../pages/dingcanfuwu/dingcanfuwu';
+import { Authstep2 } from '../pages/authstep2/authstep2';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -36,7 +45,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Contact,//联系管家页
     Pay,//支付
     Livinggoods,//生活用品
-    Livingservice//生活服务
+    Livingservice,//生活服务
+    Goodspay,//生活用品支付
+    Baochepay,//包车支付
+    Baojiepay,//保洁支付
+    Dingcanpay,//订餐支付
+    Dingcan,//订餐
+    Baojie,//保洁
+    Baoche,//包车
+    Dingcanfuwu,
+    Authstep2
   ],
   imports: [
     BrowserModule,
@@ -57,8 +75,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Contact,//联系管家页
     Pay,//支付
     Livinggoods,//生活用品
-    Livingservice//生活服务
-
+    Livingservice,//生活服务
+    Goodspay,//生活用品支付
+    Baochepay,//包车支付
+    Baojiepay,//保洁支付
+    Dingcanpay,//订餐支付
+    Dingcan,//订餐
+    Baojie,//保洁
+    Baoche,//包车
+    Dingcanfuwu,
+    Authstep2
   ],
   providers: [
     StatusBar,

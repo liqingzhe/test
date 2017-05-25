@@ -1,6 +1,27 @@
 /* CSS Document */
 
 
+/*列表项*/
+
+.list-group {
+    border-top: 1px solid #eee;
+    border-bottom: 10px solid #eee;
+    padding: 0 15px;
+    position: relative;
+}
+
+.list-group .list-group-item {
+    overflow: hidden;
+    line-height: 45px;
+    border-bottom: 1px solid #eee;
+    /*font-size: 13px;*/
+}
+
+.list-group .list-group-item.last {
+    border: 0;
+}
+
+
 /* 输入框 */
 
 input::-webkit-input-placeholder {
@@ -11,7 +32,7 @@ input::-webkit-input-placeholder {
     border: 0;
     outline: none;
     padding: 0 15px;
-    font-size: 12px;
+    /*font-size: 12px;*/
     color: #2c2c2c;
     text-align: left;
     text-indent: 4px;
@@ -22,6 +43,14 @@ input::-webkit-input-placeholder {
 
 .c_warning {
     color: #f3a705!important;
+}
+
+.c_disabled {
+    color: #666!important;
+}
+
+.font-small {
+    font-size: 12px;
 }
 
 textarea {
@@ -137,7 +166,7 @@ button {
     color: #fff!important;
 }
 
-.login-register .list-group .list-group-item {
+.login-register .login-list-group .login-list-group-item {
     background-color: transparent;
     width: 94%;
     margin: 0 auto 10px;
@@ -145,13 +174,13 @@ button {
     font-size: 16px;
 }
 
-.login-register .list-group .inputTxt {
+.login-register .login-list-group .inputTxt {
     background-color: rgba(174, 174, 174, 0.4);
     color: #fff;
     font-size: 16px;
 }
 
-.login-register .list-group .inputTxt[placeholder] {
+.login-register .login-list-group .inputTxt[placeholder] {
     color: #fff !important;
     width: 100%;
 }
@@ -175,19 +204,23 @@ button {
     text-align: right;
 }
 
+.login-register .submit.marginBottom {
+    margin-bottom: -25px;
+}
+
 
 /* Page - 注册获取验证码 */
 
-.login-register .list-group .list-group-item.get-code {
+.login-register .login-list-group .login-list-group-item.get-code {
     overflow: hidden;
 }
 
-.login-register .list-group .list-group-item .code {
+.login-register .login-list-group .login-list-group-item .code {
     width: 65%;
     float: left;
 }
 
-.login-register .list-group .list-group-item .btn-getcode {
+.login-register .login-list-group .login-list-group-item .btn-getcode {
     float: right;
     background-color: rgba(174, 174, 174, 0.4);
     font-size: 13px;
@@ -199,7 +232,7 @@ button {
     padding: 8px 0;
 }
 
-.login-register .list-group .list-group-item .btn-getcode .content {
+.login-register .login-list-group .login-list-group-item .btn-getcode .content {
     width: 100%;
     height: 100%;
     border-left: 1px solid #eee;
@@ -418,14 +451,15 @@ button {
 
 /*资料认证页面*/
 
-.user-auth .list-group,
+
+/*.user-auth .list-group,
 .contact .list-group,
 .pay .list-group {
     border-top: 1px solid #eee;
     border-bottom: 10px solid #eee;
     padding: 0 15px;
     position: relative;
-}
+}*/
 
 .user-auth .list-group .inputTxt,
 .contact .list-group .inputTxt {
@@ -435,22 +469,37 @@ button {
     text-align: right;
 }
 
-.user-auth .list-group .list-group-item,
+.user-auth .list-group .list-group-item .getCode {
+    border: 1px solid #a0a0a0;
+    color: #a0a0a0;
+    border-radius: 5px;
+    padding: 4px 10px;
+    float: right;
+    margin-top: 8px;
+    height: 26px;
+    line-height: 18px;
+}
+
+
+/*.user-auth .list-group .list-group-item,
 .contact .list-group .list-group-item,
 .pay .list-group .list-group-item {
     overflow: hidden;
     line-height: 45px;
     border-bottom: 1px solid #eee;
     font-size: 13px;
+}*/
+
+.contact .list-group .list-group-item .arrowR {
+    margin-top: -1px;
 }
-.contact .list-group .list-group-item .arrowR{
-	margin-top: -1px;
-}
-.user-auth .list-group .list-group-item.last,
+
+
+/*.user-auth .list-group .list-group-item.last,
 .contact .list-group .list-group-item.last,
 .pay .list-group .list-group-item.last {
     border: 0;
-}
+}*/
 
 .user-auth .list-group.upload-img {
     padding: 10px 15px;
@@ -638,12 +687,19 @@ button {
     background-size: cover;
 }
 
+.pay .pay-info .floatR {
+    width: 56%;
+}
+
 .pay .pay-info .c_warning {
     font-size: 16px;
 }
 
 .pay .pay-info .info-title {
     font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .pay .pay-info .detail {
@@ -652,7 +708,7 @@ button {
 }
 
 .pay .pay-info ul li {
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 
 .pay .pay-info ul li.last {
@@ -680,61 +736,68 @@ button {
     background-image: url(../../imgs/bank.png);
 }
 
-/*生活用品详情蒙层*/
-.living-goods{
-	position: relative;
-}
-.mengceng{
-	position: absolute;
-	left:0;
-	right: 0;
-	top:0;
-	bottom: 0;
-	height: 100%;
-	z-index:1000;
-	background-color: rgba(0,0,0,0.7);
-}
-.mengceng .content{
-	position: absolute;
-	padding: 45px 65;
-	width: 90%;
-	height: 90%;
-	background-color: #fff;
-	left:50%;
-	bottom:5%;
-	margin-left: -45%; 
-	text-align: center;
-} 
-.mengceng .content .close{
-	position: absolute;
-	width: 28px;
-	height: 28px;
-	right: 8px;
-	top:8px;
-	background-image: url(../../imgs/close.png);
-	background-size:cover;
 
+/*生活用品详情蒙层*/
+
+.living-goods {
+    position: relative;
 }
-.mengceng .content .goods-img{
-	width: 100%;
-	height: 50%;
-	background-image: url(../../imgs/detail_banner.jpg);
-	background-size:cover;
+
+.mengceng {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
 }
-.mengceng .content .goods-detail{
-	padding: 10px;
-	color:#666;
-	text-indent: 4px;
-	font-size: 14px;
-	text-align: justify;
+
+.mengceng .content {
+    position: absolute;
+    padding: 45px 65;
+    width: 90%;
+    background-color: #fff;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -45%;
+    text-align: center;
 }
+
+.mengceng .content .close {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 8px;
+    top: 8px;
+    background-image: url(../../imgs/close.png);
+    background-size: cover;
+}
+
+.mengceng .content .goods-img {
+    width: 100%;
+    height: 330px;
+    background-image: url(../../imgs/detail_banner.jpg);
+    background-size: cover;
+}
+
+.mengceng .content .goods-detail {
+    padding: 10px;
+    color: #666;
+    text-indent: 4px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
 /*生活用品页*/
 
-.living-goods .purchase {
+.purchase {
     border-top: 1px solid #eee;
 }
 
-.living-goods .purchase .circle {
+.purchase .circle {
     width: 16px;
     height: 16px;
     border-radius: 8px;
@@ -743,36 +806,38 @@ button {
     margin-right: 5px;
 }
 
-.living-goods .purchase .circle.selected {
+.purchase .circle.selected {
     background-image: url(../../imgs/selected.png);
     background-size: cover;
     border: none;
 }
 
-.living-goods .purchase .purchase-info {
+.purchase .purchase-info {
     padding: 15px 10px;
     border-bottom: 1px solid #eee;
 }
 
-.living-goods .purchase .purchase-info .minus,
-.living-goods .purchase .purchase-info .plus {
+.purchase-info .minus,
+.purchase .purchase-info .plus {
     width: 24px;
     height: 24px;
 }
 
-.living-goods .purchase .purchase-info .minus {
+.purchase .purchase-info .minus {
     background-image: url(../../imgs/minus.png);
 }
 
-.living-goods .purchase .purchase-info .plus {
+.purchase .purchase-info .plus {
     background-image: url(../../imgs/plus.png);
 }
-.living-goods .purchase .purchase-info .price-num{
-	margin-top: 3px;
-	margin-right: 5px;
+
+.purchase .purchase-info .price-num {
+    margin-top: 3px;
+    margin-right: 5px;
 }
-.living-goods .purchase .purchase-info .inputNum {
-    width: 40px;
+
+.purchase .purchase-info .inputNum {
+    width: 20px;
     height: 24px;
     border: 0;
     outline: none;
@@ -782,47 +847,107 @@ button {
     line-height: 1.42857143;
 }
 
-.living-goods .purchase .purchase-info ul {
+.purchase .purchase-info ul {
     width: 56%;
 }
 
-.living-goods .purchase .purchase-info ul .info-title {
+.purchase.pay .purchase-info ul {
+    width: 62%;
+}
+
+.purchase.pay .purchase-info ul li {
+    position: relative;
+}
+
+.purchase.pay .purchase-info ul .info-title {
+    margin-bottom: 35px;
+}
+
+.purchase.pay .purchase-info ul .btnAdd {
+    position: absolute;
+    bottom: -8px;
+    right: 20px;
+}
+
+.purchase.pay .purchase-info ul .btn-add {
+    width: 39px;
+    height: 39px;
+    background-image: url(../../imgs/btn_add.png);
+}
+
+.purchase .purchase-info ul .info-title {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    color:#595959;
+    color: #595959;
 }
 
-.living-goods .purchase .purchase-info .house-img {
+.purchase .purchase-info .img {
     width: 100px;
     height: 75px;
-    background-image: url(../../imgs/pay-info.jpg);
+    background-image: url(../../imgs/purchase.jpg);
     background-size: cover;
 }
 
-.living-goods .purchase .purchase-info .btn-left,
-.living-goods .purchase .purchase-info .btn-right {
+.purchase .purchase-info .img.baoche {
+    background-image: url(../../imgs/baoche.jpg);
+}
+
+.purchase .purchase-info .img.baojie {
+    background-image: url(../../imgs/goods3.jpg);
+}
+
+.purchase .purchase-info .img.dingcan {
+    background-image: url(../../imgs/dingcan.jpg);
+}
+
+.purchase .purchase-info .btn-left,
+.purchase .purchase-info .btn-right {
     float: left;
-    width: 49%;
+    width: 42%;
     height: 28px;
     line-height: 26px;
     text-align: center;
     border: 1px solid #fbbd04;
 }
 
-.living-goods .purchase .purchase-info ul .info-title,
-.living-goods .purchase .purchase-info ul .price {
-    margin-bottom: 2px;
+.purchase .purchase-info ul .info-title,
+.purchase .purchase-info ul .price {
+    margin-bottom: 3px;
 }
 
-.living-goods .purchase .purchase-info .btn-left {
+.purchase.pay .purchase-info ul .list {
+    margin-bottom: 10px;
+}
+
+.purchase .purchase-info ul .marginTop .price-num {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+}
+
+.purchase .purchase-info ul .marginTop .btn-right {
+    margin-left: 7px;
+}
+
+.purchase .purchase-info .btn-left {
     background-color: #fff;
     color: #fbbd04;
 }
 
-.living-goods .purchase .purchase-info .btn-right {
+.purchase .purchase-info .btn-right {
     background-color: #fbbd04;
     color: #fff;
+}
+
+.purchase .purchase-info .house-img,
+.purchase .purchase-info .img {
+    width: 110px;
+    height: 80px;
+}
+
+.purchase .purchase-info .house-img {
+    background-image: url(../../imgs/pay-info.jpg);
 }
 
 
@@ -832,7 +957,7 @@ button {
     width: 40%;
     height: 240px;
     border-right: 1px solid #fff;
-    background-image: url(../../imgs/goods1.jpg);
+    background-image: url(../../imgs/goods.jpg);
     background-size: cover;
 }
 
@@ -910,15 +1035,37 @@ button {
         height: 18px;
         line-height: 16px;
     }
-    .living-goods .purchase .purchase-info .house-img {
+    .pay .pay-info .floatR {
+        width: 60%;
+    }
+    .purchase .purchase-info .house-img,
+    .purchase .purchase-info .img {
         width: 120px;
         height: 90px;
     }
-    .living-goods .purchase .purchase-info ul {
+    .purchase .purchase-info ul {
         width: 58%;
     }
-    .living-goods .purchase .purchase-info ul .info-title,
-    .living-goods .purchase .purchase-info ul .price {
-        margin-bottom: 8px;
+    .purchase .purchase-info ul .info-title,
+    .purchase .purchase-info ul .price {
+        margin-bottom: 10px;
+    }
+    .purchase .purchase-info .inputNum {
+        width: 40px;
+    }
+    .purchase.pay .purchase-info ul {
+        /*width: 68%;*/
+    }
+    .purchase.pay .purchase-info ul .list {
+        margin-bottom: 13px;
+    }
+    .purchase.pay .purchase-info ul .price {
+        margin-bottom: 0;
+    }
+    .purchase.pay .purchase-info ul .info-title {
+        margin-bottom: 45px;
+    }
+    .font-small {
+        margin-bottom: 5px;
     }
 }
