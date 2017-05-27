@@ -1,14 +1,14 @@
 webpackJsonp([14],{
 
-/***/ 285:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baojie__ = __webpack_require__(102);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BaojieModule", function() { return BaojieModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__baojiepay__ = __webpack_require__(103);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BaojiepayModule", function() { return BaojiepayModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,26 +18,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var BaojieModule = (function () {
-    function BaojieModule() {
+var BaojiepayModule = (function () {
+    function BaojiepayModule() {
     }
-    return BaojieModule;
+    return BaojiepayModule;
 }());
-BaojieModule = __decorate([
+BaojiepayModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__baojie__["a" /* Baojie */],
+            __WEBPACK_IMPORTED_MODULE_2__baojiepay__["a" /* Baojiepay */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__baojie__["a" /* Baojie */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__baojiepay__["a" /* Baojiepay */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__baojie__["a" /* Baojie */]
+            __WEBPACK_IMPORTED_MODULE_2__baojiepay__["a" /* Baojiepay */]
         ]
     })
-], BaojieModule);
+], BaojiepayModule);
 
-//# sourceMappingURL=baojie.module.js.map
+//# sourceMappingURL=baojiepay.module.js.map
 
 /***/ })
 

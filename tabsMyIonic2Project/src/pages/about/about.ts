@@ -18,6 +18,7 @@ import { Baojie } from '../baojie/baojie';
 import { Dingcan } from '../dingcan/dingcan';
 import { Dingcanfuwu } from '../dingcanfuwu/dingcanfuwu';
 import { Authstep2 } from '../authstep2/authstep2';
+import { Gongyudetail } from '../gongyudetail/gongyudetail';
 
 @Component({
   selector: 'page-about',
@@ -49,7 +50,8 @@ export class AboutPage {
       { title: '订餐服务', component: Dingcanfuwu},
       { title: '订餐详情', component: Dingcan},
       { title: '包车', component: Baoche},
-      { title: '保洁', component: Baojie}
+      { title: '保洁', component: Baojie},
+      { title: '公寓房屋详情页', component: Gongyudetail}
     ];
   }
 

@@ -1,14 +1,14 @@
 webpackJsonp([11],{
 
-/***/ 294:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dingcan__ = __webpack_require__(295);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DingcanModule", function() { return DingcanModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dingcanfuwu__ = __webpack_require__(297);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DingcanfuwuModule", function() { return DingcanfuwuModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,26 +18,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var DingcanModule = (function () {
-    function DingcanModule() {
+var DingcanfuwuModule = (function () {
+    function DingcanfuwuModule() {
     }
-    return DingcanModule;
+    return DingcanfuwuModule;
 }());
-DingcanModule = __decorate([
+DingcanfuwuModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__dingcan__["a" /* Dingcan */],
+            __WEBPACK_IMPORTED_MODULE_2__dingcanfuwu__["a" /* Dingcanfuwu */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__dingcan__["a" /* Dingcan */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__dingcanfuwu__["a" /* Dingcanfuwu */]),
         ],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_2__dingcan__["a" /* Dingcan */]
+            __WEBPACK_IMPORTED_MODULE_2__dingcanfuwu__["a" /* Dingcanfuwu */]
         ]
     })
-], DingcanModule);
+], DingcanfuwuModule);
 
-//# sourceMappingURL=dingcan.module.js.map
+//# sourceMappingURL=dingcanfuwu.module.js.map
 
 /***/ })
 

@@ -55782,7 +55782,7 @@ var Housedetail = (function () {
 Housedetail = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-housedetail',template:/*ion-inline-start:"F:\tabsMyIonic2Project\src\pages\housedetail\housedetail.html"*/'<!--\n\n  Generated template for the Housedetail page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>房屋详请</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header> -->\n\n<ion-content padding class="house-detail">\n\n    <!-- banner图 -->\n\n    <div class="banner"></div>\n\n    <!-- 内容主题-->\n\n    <div class="content">\n\n        <p class="title clearfix">整租／合租 二里庄小区2室一厅－南北阳光</p>\n\n        <p class="detail">62m | 三室两厅 | 4/6层 | 南北 <span class=" c_warning">￥6490元/月</span></p>\n\n        <p class="position">\n\n            <i class="icon weizhi"></i>距15号线北沙滩站685米\n\n        </p>\n\n        <ul class="character clearfix">\n\n            <li>距学校近</li>\n\n            <li>独立卫生间</li>\n\n            <li>精装修</li>\n\n        </ul>\n\n    </div>\n\n    <div class="more sheshi">\n\n        <div class="title">\n\n            房屋配套设施\n\n        </div>\n\n        <table>\n\n            <tr>\n\n                <th>面积</th>\n\n                <th>配置</th>\n\n            </tr>\n\n            <tr>\n\n                <td>客厅：25m</td>\n\n                <td>桌子 智能锁 电视 茶几 沙发</td>\n\n            </tr>\n\n            <tr>\n\n                <td>厨房：15m</td>\n\n                <td>油烟机 冰箱 微波炉 洗衣机</td>\n\n            </tr>\n\n            <tr>\n\n                <td>主卧：20m</td>\n\n                <td>床 衣柜 床头柜 镜子</td>\n\n            </tr>\n\n            <tr>\n\n                <td>次卧：10m</td>\n\n                <td>床 衣柜 床头柜 书架 空调</td>\n\n            </tr>\n\n        </table>\n\n    </div>\n\n    <div class="more jiaotong">\n\n        <div class="title">\n\n            周边及交通\n\n        </div>\n\n        <div class="map">\n\n        </div>\n\n    </div>\n\n    <div class="more">\n\n        <div class="title">\n\n            房间信息\n\n        </div>\n\n        <table>\n\n            <tr>\n\n                <th>房间</th>\n\n                <th>姓名</th>\n\n                <th>性别</th>\n\n                <th>租期</th>\n\n            </tr>\n\n            <tr>\n\n                <td>01卧</td>\n\n                <td>黎明</td>\n\n                <td>男</td>\n\n                <td>一年</td>\n\n            </tr>\n\n            <tr>\n\n                <td>02卧</td>\n\n                <td>王祖蓝</td>\n\n                <td>男</td>\n\n                <td>一年</td>\n\n            </tr>\n\n            <tr>\n\n                <td>03卧</td>\n\n                <td>王菲</td>\n\n                <td>女</td>\n\n                <td>两年</td>\n\n            </tr>\n\n        </table>\n\n    </div>\n\n</ion-content>\n\n<ul class="btn">\n\n    <li class="left-btn">联系管家看房</li>\n\n    <li class="right-btn">支付定金</li>\n\n</ul>\n\n'/*ion-inline-end:"F:\tabsMyIonic2Project\src\pages\housedetail\housedetail.html"*/,
+        selector: 'page-housedetail',template:/*ion-inline-start:"F:\tabsMyIonic2Project\src\pages\housedetail\housedetail.html"*/'<!--\n\n  Generated template for the Housedetail page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>房屋详请</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header> -->\n\n<ion-content padding class="house-detail">\n\n    <!-- banner图 -->\n\n    <div class="banner"></div>\n\n    <!-- 内容主题-->\n\n    <div class="content">\n\n        <p class="title clearfix">整租／合租 二里庄小区2室一厅－南北阳光</p>\n\n        <p class="detail">62m | 三室两厅 | 4/6层 | 南北 <span class=" c_warning">￥6490元/月</span></p>\n\n        <p class="position">\n\n            <i class="icon weizhi"></i>距15号线北沙滩站685米\n\n        </p>\n\n        <ul class="character clearfix">\n\n            <li>距学校近</li>\n\n            <li>独立卫生间</li>\n\n            <li>精装修</li>\n\n        </ul>\n\n    </div>\n\n    <div class="more sheshi">\n\n        <div class="title">\n\n            房屋配套设施\n\n        </div>\n\n        <table>\n\n            <tr>\n\n                <th>面积</th>\n\n                <th>配置</th>\n\n            </tr>\n\n            <tr>\n\n                <td>客厅：25m</td>\n\n                <td>桌子 智能锁 电视 茶几 沙发</td>\n\n            </tr>\n\n            <tr>\n\n                <td>厨房：15m</td>\n\n                <td>油烟机 冰箱 微波炉 洗衣机</td>\n\n            </tr>\n\n            <tr>\n\n                <td>主卧：20m</td>\n\n                <td>床 衣柜 床头柜 镜子</td>\n\n            </tr>\n\n            <tr>\n\n                <td>次卧：10m</td>\n\n                <td>床 衣柜 床头柜 书架 空调</td>\n\n            </tr>\n\n        </table>\n\n    </div>\n\n    <div class="more jiaotong">\n\n        <div class="title">\n\n            周边及交通\n\n        </div>\n\n        <div class="map">\n\n        </div>\n\n    </div>\n\n    <div class="more">\n\n        <div class="title">\n\n            房间信息\n\n        </div>\n\n        <table>\n\n            <tr>\n\n                <th>房间</th>\n\n                <th>姓名</th>\n\n                <th>性别</th>\n\n                <th>租期</th>\n\n            </tr>\n\n            <tr>\n\n                <td>01卧</td>\n\n                <td>黎明</td>\n\n                <td>男</td>\n\n                <td><span class="btn active">选择</span></td>\n\n            </tr>\n\n            <tr>\n\n                <td>02卧</td>\n\n                <td>王祖蓝</td>\n\n                <td>男</td>\n\n                <td><span class="btn">选择</span></td>\n\n            </tr>\n\n            <tr>\n\n                <td>03卧</td>\n\n                <td>王菲</td>\n\n                <td>女</td>\n\n                <td><span class="btn">选择</span></td>\n\n            </tr>\n\n        </table>\n\n    </div>\n\n</ion-content>\n\n<ul class="btn clearfix bottom-fixed">\n\n    <li class="left-btn">联系管家看房</li>\n\n    <li class="right-btn">支付定金</li>\n\n</ul>\n\n'/*ion-inline-end:"F:\tabsMyIonic2Project\src\pages\housedetail\housedetail.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], Housedetail);
@@ -56096,6 +56096,7 @@ webpackEmptyContext.id = 108;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__dingcan_dingcan__ = __webpack_require__(295);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__dingcanfuwu_dingcanfuwu__ = __webpack_require__(297);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__authstep2_authstep2__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__gongyudetail_gongyudetail__ = __webpack_require__(301);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56106,6 +56107,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -56147,7 +56149,8 @@ var AboutPage = (function () {
             { title: '订餐服务', component: __WEBPACK_IMPORTED_MODULE_17__dingcanfuwu_dingcanfuwu__["a" /* Dingcanfuwu */] },
             { title: '订餐详情', component: __WEBPACK_IMPORTED_MODULE_16__dingcan_dingcan__["a" /* Dingcan */] },
             { title: '包车', component: __WEBPACK_IMPORTED_MODULE_14__baoche_baoche__["a" /* Baoche */] },
-            { title: '保洁', component: __WEBPACK_IMPORTED_MODULE_15__baojie_baojie__["a" /* Baojie */] }
+            { title: '保洁', component: __WEBPACK_IMPORTED_MODULE_15__baojie_baojie__["a" /* Baojie */] },
+            { title: '公寓房屋详情页', component: __WEBPACK_IMPORTED_MODULE_19__gongyudetail_gongyudetail__["a" /* Gongyudetail */] }
         ];
     }
     AboutPage.prototype.openPage = function (page) {
@@ -74729,79 +74732,83 @@ module.exports = g;
 var map = {
 	"../pages/auth/auth.module": [
 		276,
-		37
+		39
 	],
 	"../pages/authstep2/authstep2.module": [
 		298,
-		15
+		38
 	],
 	"../pages/baoche/baoche.module": [
 		290,
-		36
+		35
 	],
 	"../pages/baochepay/baochepay.module": [
 		277,
-		33
+		34
 	],
 	"../pages/baojie/baojie.module": [
 		292,
-		32
+		31
 	],
 	"../pages/baojiepay/baojiepay.module": [
 		278,
-		29
+		30
 	],
 	"../pages/contact/contact.module": [
 		279,
-		28
+		13
 	],
 	"../pages/dingcan/dingcan.module": [
 		294,
-		27
+		12
 	],
 	"../pages/dingcanfuwu/dingcanfuwu.module": [
 		296,
-		26
+		11
 	],
 	"../pages/dingcanpay/dingcanpay.module": [
 		280,
-		25
+		10
 	],
 	"../pages/gongyu/gongyu.module": [
 		281,
-		24
+		9
+	],
+	"../pages/gongyudetail/gongyudetail.module": [
+		300,
+		0
 	],
 	"../pages/goodspay/goodspay.module": [
 		282,
-		23
+		8
 	],
 	"../pages/housedetail/housedetail.module": [
 		283,
-		22
+		7
 	],
 	"../pages/livinggoods/livinggoods.module": [
 		284,
-		21
+		6
 	],
 	"../pages/livingservice/livingservice.module": [
 		285,
-		20
+		5
 	],
 	"../pages/login/login.module": [
 		286,
-		19
+		4
 	],
 	"../pages/pay/pay.module": [
 		287,
-		18
+		3
 	],
 	"../pages/register/register.module": [
 		288,
-		17
+		2
 	],
 	"../pages/zhengzu/zhengzu.module": [
 		289,
-		16
+		1
 	]
 };
 function webpackAsyncContext(req) {
@@ -74849,8 +74856,9 @@ webpackAsyncContext.id = 204;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_dingcan_dingcan__ = __webpack_require__(295);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_dingcanfuwu_dingcanfuwu__ = __webpack_require__(297);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_authstep2_authstep2__ = __webpack_require__(299);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_status_bar__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_splash_screen__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_gongyudetail_gongyudetail__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_splash_screen__ = __webpack_require__(114);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -74858,6 +74866,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -74916,7 +74925,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_22__pages_baojie_baojie__["a" /* Baojie */],
             __WEBPACK_IMPORTED_MODULE_21__pages_baoche_baoche__["a" /* Baoche */],
             __WEBPACK_IMPORTED_MODULE_24__pages_dingcanfuwu_dingcanfuwu__["a" /* Dingcanfuwu */],
-            __WEBPACK_IMPORTED_MODULE_25__pages_authstep2_authstep2__["a" /* Authstep2 */]
+            __WEBPACK_IMPORTED_MODULE_25__pages_authstep2_authstep2__["a" /* Authstep2 */],
+            __WEBPACK_IMPORTED_MODULE_26__pages_gongyudetail_gongyudetail__["a" /* Gongyudetail */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
@@ -74940,7 +74950,8 @@ AppModule = __decorate([
                     { loadChildren: '../pages/baojie/baojie.module#BaojieModule', name: 'Baojie', segment: 'baojie', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/dingcan/dingcan.module#DingcanModule', name: 'Dingcan', segment: 'dingcan', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/dingcanfuwu/dingcanfuwu.module#DingcanfuwuModule', name: 'Dingcanfuwu', segment: 'dingcanfuwu', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/authstep2/authstep2.module#Authstep2Module', name: 'Authstep2', segment: 'authstep2', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/authstep2/authstep2.module#Authstep2Module', name: 'Authstep2', segment: 'authstep2', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/gongyudetail/gongyudetail.module#GongyudetailModule', name: 'Gongyudetail', segment: 'gongyudetail', priority: 'low', defaultHistory: [] }
                 ]
             })
         ],
@@ -74968,11 +74979,12 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_22__pages_baojie_baojie__["a" /* Baojie */],
             __WEBPACK_IMPORTED_MODULE_21__pages_baoche_baoche__["a" /* Baoche */],
             __WEBPACK_IMPORTED_MODULE_24__pages_dingcanfuwu_dingcanfuwu__["a" /* Dingcanfuwu */],
-            __WEBPACK_IMPORTED_MODULE_25__pages_authstep2_authstep2__["a" /* Authstep2 */]
+            __WEBPACK_IMPORTED_MODULE_25__pages_authstep2_authstep2__["a" /* Authstep2 */],
+            __WEBPACK_IMPORTED_MODULE_26__pages_gongyudetail_gongyudetail__["a" /* Gongyudetail */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_26__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_27__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_28__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
         ]
     })
@@ -112938,7 +112950,7 @@ var Dingcanfuwu = (function () {
 Dingcanfuwu = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-dingcanfuwu',template:/*ion-inline-start:"F:\tabsMyIonic2Project\src\pages\dingcanfuwu\dingcanfuwu.html"*/'<!--\n\n  Generated template for the Goodspay page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n    <ion-navbar>\n\n        <ion-title>dingcanfuwu</ion-title>\n\n    </ion-navbar>\n\n</ion-header> -->\n\n<ion-content padding>\n\n    <div class="purchase pay">\n\n        <div class="purchase-info clearfix">\n\n            <div class="img floatL dingcan"></div>\n\n            <ul class="floatR">\n\n                <li class="list">\n\n                    鹿港小镇 咖喱鸡块卷\n\n                </li>\n\n                <li class="font-small c_disabled">\n\n                    起送价：100元\n\n                </li>\n\n                <li class="font-small c_disabled">\n\n                    月售123\n\n                </li>\n\n            </ul>\n\n        </div>\n\n        <div class="purchase-info clearfix">\n\n            <div class="img floatL dingcan"></div>\n\n            <ul class="floatR">\n\n                <li class="list">\n\n                    鹿港小镇 咖喱鸡块卷\n\n                </li>\n\n                <li class="font-small c_disabled">\n\n                    起送价：100元\n\n                </li>\n\n                <li class="font-small c_disabled">\n\n                    月售123\n\n                </li>\n\n            </ul>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n<div class="fixed-submit">\n\n    <button>购买</button>\n\n</div>\n\n'/*ion-inline-end:"F:\tabsMyIonic2Project\src\pages\dingcanfuwu\dingcanfuwu.html"*/,
+        selector: 'page-dingcanfuwu',template:/*ion-inline-start:"F:\tabsMyIonic2Project\src\pages\dingcanfuwu\dingcanfuwu.html"*/'<!--\n\n  Generated template for the Goodspay page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n    <ion-navbar>\n\n        <ion-title>dingcanfuwu</ion-title>\n\n    </ion-navbar>\n\n</ion-header> -->\n\n<ion-content padding>\n\n    <p class="title-tips">\n\n        注：9:00-11:00点午餐，商家11:30开始配送；4:00-6:00点晚餐，商家6:30开始配送）\n\n    </p>\n\n    <div class="purchase pay">\n\n        <div class="purchase-info clearfix">\n\n            <div class="img floatL dingcan"></div>\n\n            <ul class="floatR">\n\n                <li class="list">\n\n                    鹿港小镇 咖喱鸡块卷\n\n                </li>\n\n                <li class="font-small c_disabled">\n\n                    起送价：100元\n\n                </li>\n\n                <li class="font-small c_disabled">\n\n                    月售123\n\n                </li>\n\n            </ul>\n\n        </div>\n\n        <div class="purchase-info clearfix">\n\n            <div class="img floatL dingcan"></div>\n\n            <ul class="floatR">\n\n                <li class="list">\n\n                    鹿港小镇 咖喱鸡块卷\n\n                </li>\n\n                <li class="font-small c_disabled">\n\n                    起送价：100元\n\n                </li>\n\n                <li class="font-small c_disabled">\n\n                    月售123\n\n                </li>\n\n            </ul>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n<div class="fixed-submit">\n\n    <button>购买</button>\n\n</div>\n\n'/*ion-inline-end:"F:\tabsMyIonic2Project\src\pages\dingcanfuwu\dingcanfuwu.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], Dingcanfuwu);
@@ -112984,12 +112996,58 @@ var Authstep2 = (function () {
 Authstep2 = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-authstep2',template:/*ion-inline-start:"F:\tabsMyIonic2Project\src\pages\authstep2\authstep2.html"*/'<!--\n\n  Generated template for the Auth page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n    <ion-navbar>\n\n        <ion-title>\n\n            实名认证第二步\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header> -->\n\n<ion-content padding>\n\n    <div class="user-auth">\n\n        <ul class="list-group">\n\n            <li class="list-group-item">手机绑定：\n\n                <div class="getCode">获取验证码</div>\n\n            </li>\n\n            <li class="list-group-item last">手机验证码：\n\n                <input type="text" placeholder="请填写手机验证码" class="inputTxt">\n\n            </li>\n\n        </ul>\n\n\n\n        <div class="submit fixed-submit">\n\n            <button>微信绑定</button>\n\n            <button>下一步</button>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"F:\tabsMyIonic2Project\src\pages\authstep2\authstep2.html"*/,
+        selector: 'page-authstep2',template:/*ion-inline-start:"F:\tabsMyIonic2Project\src\pages\authstep2\authstep2.html"*/'<!--\n\n  Generated template for the Auth page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n    <ion-navbar>\n\n        <ion-title>\n\n            实名认证第二步\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header> -->\n\n<ion-content padding>\n\n    <div class="user-auth">\n\n        <ul class="list-group">\n\n            <li class="list-group-item">手机绑定：\n\n                <div class="getCode">获取验证码</div>\n\n            </li>\n\n            <li class="list-group-item last">手机验证码：\n\n                <input type="text" placeholder="请填写手机验证码" class="inputTxt">\n\n            </li>\n\n        </ul>\n\n        <div class="bottom-fixed">\n\n            <div class="submit marginBottom">\n\n                <button>微信绑定</button>\n\n            </div>\n\n            <div class="submit">\n\n                <button>下一步</button>\n\n            </div>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\tabsMyIonic2Project\src\pages\authstep2\authstep2.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], Authstep2);
 
 //# sourceMappingURL=authstep2.js.map
+
+/***/ }),
+/* 300 */,
+/* 301 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Gongyudetail; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the Gongyudetail page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var Gongyudetail = (function () {
+    function Gongyudetail(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    Gongyudetail.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Gongyudetail');
+    };
+    return Gongyudetail;
+}());
+Gongyudetail = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'page-gongyudetail',template:/*ion-inline-start:"F:\tabsMyIonic2Project\src\pages\gongyudetail\gongyudetail.html"*/'<!--\n\n  Generated template for the Housedetail page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>房屋详请</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header> -->\n\n<ion-content padding class="house-detail">\n\n    <!-- banner图 -->\n\n    <div class="banner"></div>\n\n    <!-- 内容主题-->\n\n    <div class="content">\n\n        <p class="title clearfix">整租／合租 二里庄小区2室一厅－南北阳光</p>\n\n        <p class="detail">62m | 三室两厅 | 4/6层 | 南北 <span class=" c_warning">￥6490元/月</span></p>\n\n        <p class="position">\n\n            <i class="icon weizhi"></i>距15号线北沙滩站685米\n\n        </p>\n\n        <ul class="character clearfix">\n\n            <li>距学校近</li>\n\n            <li>独立卫生间</li>\n\n            <li>精装修</li>\n\n        </ul>\n\n    </div>\n\n    <div class="more sheshi">\n\n        <div class="title">\n\n            房屋配套设施\n\n        </div>\n\n        <table>\n\n            <tr>\n\n                <th>配置</th>\n\n            </tr>\n\n            <tr>\n\n                <td>桌子 智能锁 电视 茶几 沙发</td>\n\n            </tr>\n\n            <tr>\n\n                <td>油烟机 冰箱 微波炉 洗衣机</td>\n\n            </tr>\n\n            <tr>\n\n                <td>床 衣柜 床头柜 镜子</td>\n\n            </tr>\n\n            <tr>\n\n                <td>床 衣柜 床头柜 书架 空调</td>\n\n            </tr>\n\n        </table>\n\n    </div>\n\n    <div class="more jiaotong">\n\n        <div class="title">\n\n            周边及交通\n\n        </div>\n\n        <div class="map">\n\n        </div>\n\n    </div>\n\n    <div class="more clearfix">\n\n        <div class="pic floatL">\n\n            <div class="cover">\n\n                户型1 面积20m\n\n                <span class="floatR">2300元/月 </span>\n\n            </div>\n\n        </div>\n\n        <div class="pic floatR">\n\n            <div class="cover">\n\n                户型2 面积40m\n\n                <span class="floatR">2300元/月 </span>\n\n            </div>\n\n        </div>\n\n    </div>\n\n</ion-content>\n\n<ul class="btn clearfix bottom-fixed">\n\n    <li class="left-btn">联系管家看房</li>\n\n    <li class="right-btn">支付定金</li>\n\n</ul>\n\n'/*ion-inline-end:"F:\tabsMyIonic2Project\src\pages\gongyudetail\gongyudetail.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], Gongyudetail);
+
+//# sourceMappingURL=gongyudetail.js.map
 
 /***/ })
 /******/ ]);

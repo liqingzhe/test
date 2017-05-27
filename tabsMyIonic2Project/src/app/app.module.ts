@@ -26,6 +26,7 @@ import { Baojie } from '../pages/baojie/baojie';
 import { Dingcan } from '../pages/dingcan/dingcan';
 import { Dingcanfuwu } from '../pages/dingcanfuwu/dingcanfuwu';
 import { Authstep2 } from '../pages/authstep2/authstep2';
+import { Gongyudetail } from '../pages/gongyudetail/gongyudetail';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -54,7 +55,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Baojie,//保洁
     Baoche,//包车
     Dingcanfuwu,
-    Authstep2
+    Authstep2,
+    Gongyudetail
   ],
   imports: [
     BrowserModule,
@@ -84,7 +86,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     Baojie,//保洁
     Baoche,//包车
     Dingcanfuwu,
-    Authstep2
+    Authstep2,
+    Gongyudetail
   ],
   providers: [
     StatusBar,
