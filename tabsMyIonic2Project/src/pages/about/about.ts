@@ -1,6 +1,6 @@
 import { Component , ViewChild} from '@angular/core';
 
-import {NavController, Nav} from 'ionic-angular';
+import {NavController, Nav, App} from 'ionic-angular';
 import {LoginPage} from "../login/login";
 import {RegisterPage} from "../register/register";
 import {Auth} from "../auth/auth";
@@ -31,7 +31,7 @@ export class AboutPage {
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, private app:App) {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Login', component: LoginPage },
@@ -58,7 +58,7 @@ export class AboutPage {
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-    this.navCtrl.push(page.component);
+    this.app.getRootNav().push(page.component);
   }
 
 }

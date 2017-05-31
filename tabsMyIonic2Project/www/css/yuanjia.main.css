@@ -1,7 +1,7 @@
 /* CSS Document */
 
 .tabs-ios .tab-button-icon::before {
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
 
 
@@ -132,12 +132,30 @@ i.icon {
     background-image: url(../imgs/arrowR.png);
 }
 
+.icon.arrowL {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    width: 22px;
+    height: 22px;
+    background-image: url(../imgs/arrowL.png);
+}
+
+.icon.stare {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 22px;
+    height: 22px;
+    background-image: url(../imgs/stare.png);
+}
+
 .list-group .list-group-item .icon.arrowR {
     margin-top: 19px;
 }
 
 .toolbar {
-    padding: 10px;
+    padding: 0 10px;
 }
 
 
@@ -145,6 +163,10 @@ i.icon {
 
 button {
     /*color: #fff!important;*/
+}
+
+.marginBottom-btn {
+    margin-bottom: 55px;
 }
 
 .submit {
@@ -172,6 +194,7 @@ button {
     height: 45px;
     border: 0;
     margin: 0;
+    z-index: 10000;
 }
 
 .bottom-only-btn {
@@ -196,6 +219,7 @@ button {
 .login-bg {
     background-image: url(../../imgs/login_bg.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .login-register {
@@ -576,6 +600,7 @@ button {
 }
 
 .house-detail .banner {
+    position: relative;
     width: 100%;
     height: 280px;
     background-image: url(../imgs/detail_banner.jpg);
@@ -673,6 +698,7 @@ button {
     background-image: url(../../imgs/gongyu.png);
     background-size: cover;
     font-size: 12px;
+    margin-bottom: 45px;
 }
 
 .house-detail .more .pic .cover {
