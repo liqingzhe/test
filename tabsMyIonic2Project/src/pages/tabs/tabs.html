@@ -1,6 +1,6 @@
 <ion-tabs>
-  <ion-tab [root]="tab1Root" tabTitle="首页" tabIcon="home"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="整租/合租" tabIcon="information-circle"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="公寓/宿舍" tabIcon="contacts"></ion-tab>
-  <ion-tab [root]="tab4Root" tabTitle="生活服务" tabIcon="leaf"></ion-tab>
+    <ion-tab [root]="tab1Root" tabTitle="首页" (ionSelect)="change(0)" tabIcon="{{iconArray[0]}}"></ion-tab>
+    <ion-tab [root]="tab2Root" tabTitle="整租/合租" (ionSelect)="change(1)" tabIcon="{{iconArray[1]}}"></ion-tab>
+    <ion-tab [root]="tab3Root" tabTitle="公寓/宿舍" (ionSelect)="change(2)" tabIcon="{{iconArray[2]}}"></ion-tab>
+    <ion-tab [root]="tab4Root" tabTitle="生活服务" (ionSelect)="change(3)" tabIcon="{{iconArray[3]}}"></ion-tab>
 </ion-tabs>

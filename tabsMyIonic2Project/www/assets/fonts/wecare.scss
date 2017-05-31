@@ -1,0 +1,125 @@
+    $font-path: '../assets/fonts';
+    @font-face {
+        font-family: 'wecare';
+        src: url('#{$font-path}/wecare.eot?m457y6');
+        src: url('#{$font-path}/wecare.eot?m457y6#iefix') format('embedded-opentype'),
+        url('#{$font-path}/wecare.ttf?m457y6') format('truetype'),
+        url('#{$font-path}/wecare.woff?m457y6') format('woff'),
+        url('#{$font-path}/wecare.svg?m457y6#wecare') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    .wecare {
+        text-transform: none;
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        font-size: 22 px;
+        font-family: 'wecare' !important;
+        line-height: 1;
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        speak: none;
+        font-size: 23px;
+    }
+    
+    .ion-ios-iconfont-life:before,
+    .ion-md-iconfont-life:before,
+    .ion-ios-iconfont-life-outline:before,
+    .ion-md-iconfont-life-outline:before,
+    .ion-ios-iconfont-house-outline:before,
+    .ion-md-iconfont-house-outline:before,
+    .ion-ios-iconfont-house:before,
+    .ion-md-iconfont-house:before,
+    .ion-ios-iconfont-gongyu-outline:before,
+    .ion-md-iconfont-gongyu-outline:before,
+    .ion-ios-iconfont-gongyu:before,
+    .ion-md-iconfont-gongyu:before,
+    .ion-ios-iconfont-home-outline:before,
+    .ion-md-iconfont-home-outline:before,
+    .ion-ios-iconfont-home:before,
+    .ion-md-iconfont-home:before {
+        @extend .wecare;
+    }
+    
+    .ion-ios-iconfont-life:before {
+        content: "\e900";
+        color: #ffd138;
+    }
+    
+    .ion-md-iconfont-life:before {
+        content: "\e900";
+        color: #ffd138;
+    }
+    
+    .ion-ios-iconfont-life-outline:before {
+        content: "\e901";
+        color: #ccc8b8;
+    }
+    
+    .ion-md-iconfont-life-outline:before {
+        content: "\e901";
+        color: #ccc8b8;
+    }
+    
+    .ion-ios-iconfont-house-outline:before {
+        content: "\e902";
+        color: #ccc8b8;
+    }
+    
+    .ion-md-iconfont-house-outline:before {
+        content: "\e902";
+        color: #ccc8b8;
+    }
+    
+    .ion-ios-iconfont-house:before {
+        content: "\e903";
+        color: #ffd138;
+    }
+    
+    .ion-md-iconfont-house:before {
+        content: "\e903";
+        color: #ffd138;
+    }
+    
+    .ion-ios-iconfont-gongyu-outline:before {
+        content: "\e904";
+        color: #ccc8b8;
+    }
+    
+    .ion-md-iconfont-gongyu-outline:before {
+        content: "\e904";
+        color: #ccc8b8;
+    }
+    
+    .ion-ios-iconfont-gongyu:before {
+        content: "\e905";
+        color: #ffd138;
+    }
+    
+    .ion-md-iconfont-gongyu:before {
+        content: "\e905";
+        color: #ffd138;
+    }
+    
+    .ion-ios-iconfont-home-outline:before {
+        content: "\e906";
+        color: #ccc8b8;
+    }
+    
+    .ion-md-iconfont-home-outline:before {
+        content: "\e906";
+        color: #ccc8b8;
+    }
+    
+    .ion-ios-iconfont-home:before {
+        content: "\e907";
+        color: #ffd138;
+    }
+    
+    .ion-md-iconfont-home:before {
+        content: "\e907";
+        color: #ffd138;
+    }

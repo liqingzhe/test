@@ -1,5 +1,10 @@
 /* CSS Document */
 
+.tabs-ios .tab-button-icon::before {
+  vertical-align: middle;
+}
+
+
 
 /*列表项*/
 
