@@ -210,9 +210,10 @@ button {
 .user-auth .bottom-fixed .submit {
     margin-left: 0;
     margin-right: 0;
+}
+.user-auth .bottom-fixed .submit button{
     border-radius: 0;
 }
-
 
 /*登录、注册页面*/
 
@@ -425,7 +426,9 @@ button {
     align-items: center;
     border-bottom: 1px solid #f0f0f0;
 }
-
+.layer .item ul.border-none{
+    border-bottom: none;
+}
 .layer .filter-item-list .item .title {
     margin-top: 7px;
     color: #666;
@@ -860,7 +863,7 @@ button {
     top: 0;
     bottom: 0;
     height: 100%;
-    z-index: 1000;
+    z-index: 10001;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -870,7 +873,7 @@ button {
     width: 90%;
     background-color: #fff;
     left: 50%;
-    bottom: 5%;
+    bottom: 12%;
     margin-left: -45%;
     text-align: center;
 }
